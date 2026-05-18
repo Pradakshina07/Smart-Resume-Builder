@@ -1,16 +1,88 @@
-# React + Vite
+# Smart Resume Builder with AI Suggestions
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Project Overview
 
-Currently, two official plugins are available:
+Smart Resume Builder is a full-stack web application that helps users create professional resumes with AI-powered improvement suggestions. Users can enter resume details, preview resumes in real time, and export them as PDFs.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Interactive Resume Builder
+* Real-time Resume Preview
+* AI-powered Resume Suggestions
+* PDF Export Functionality
+* MongoDB Database Integration
+* Responsive UI using Tailwind CSS
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+### Frontend
+
+* React.js
+* Vite
+* Tailwind CSS
+
+### Backend
+
+* Node.js
+* Express.js
+
+### Database
+
+* MongoDB
+
+### AI Integration
+
+* OpenAI API / Gemini API
+
+---
+
+## 📂 Project Structure
+
+```bash
+client/   # React Frontend
+server/   # Node.js Backend
+```
+
+---
+
+## ⚙️ Installation
+
+### Frontend Setup
+
+```bash
+cd client
+npm install
+npm run dev
+```
+
+### Backend Setup
+
+```bash
+cd server
+npm install
+npm run dev
+```
+
+---
+
+## 🌐 Localhost Ports
+
+* Frontend → http://localhost:5173
+* Backend → http://localhost:5000
+
+---
+
+## 🎯 Project Objective
+
+The objective of this project is to simplify resume creation using modern web technologies and AI-based suggestions.
+
+---
+
+## 👨‍💻 Developed By
+
+Pradakshina S
+
